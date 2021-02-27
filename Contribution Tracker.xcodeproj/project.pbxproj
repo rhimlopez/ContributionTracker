@@ -15,6 +15,7 @@
 		812B4B7B25E9884A00F9CD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812B4B7925E9884A00F9CD10 /* LaunchScreen.storyboard */; };
 		8130003D25E9A83A007C52B0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8130003C25E9A83A007C52B0 /* Account.swift */; };
 		8130004925E9AA06007C52B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8130004825E9AA06007C52B0 /* Main.storyboard */; };
+		81CFE51D25EAE60800B50705 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CFE51C25EAE60800B50705 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		812B4B7C25E9884A00F9CD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8130003C25E9A83A007C52B0 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		8130004825E9AA06007C52B0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81CFE51C25EAE60800B50705 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "Contribution Tracker/Views/SettingsViewController.swift"; sourceTree = SOURCE_ROOT; };
 		B481B3C4A1F21797EDDC6F8E /* Pods-Contribution Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contribution Tracker.release.xcconfig"; path = "Target Support Files/Pods-Contribution Tracker/Pods-Contribution Tracker.release.xcconfig"; sourceTree = "<group>"; };
 		FA9D9D3DAFD4D0C225A155F5 /* Pods_Contribution_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contribution_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7011D8AF49AB1D39521FC3 /* Pods-Contribution Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contribution Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Contribution Tracker/Pods-Contribution Tracker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		812B4B8B25E9993100F9CD10 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				81CFE51C25EAE60800B50705 /* SettingsViewController.swift */,
 				812B4B6F25E9884900F9CD10 /* AccountsViewController.swift */,
 			);
 			path = Controllers;
@@ -243,6 +246,7 @@
 				812B4B7025E9884900F9CD10 /* AccountsViewController.swift in Sources */,
 				8130003D25E9A83A007C52B0 /* Account.swift in Sources */,
 				812B4B6C25E9884900F9CD10 /* AppDelegate.swift in Sources */,
+				81CFE51D25EAE60800B50705 /* SettingsViewController.swift in Sources */,
 				812B4B6E25E9884900F9CD10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
